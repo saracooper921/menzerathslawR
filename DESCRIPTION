@@ -1,0 +1,12 @@
+Package: menzerathslaw
+Type: Package
+Title: Tests Vocal Data for Menzerath's Law
+Version: 0.1.0
+Author: Sara Cooper
+Maintainer: Sara Cooper <saracooper921@gmail.com>
+Description: This package combines automatic classification and unsupervised neural network to test vocalization datasets for Menzerath's law. Functions for analysis, manipulation, and visualization of relevant variables (sequence size, individual vocalization duration, intercall interval duration) included.  The menzerath function tests the results of these functions for Menzerath's law through Kohonen neural network analysis, heatmap plots, and statistical testing.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: tuneR, seewave, kohonen, stats
